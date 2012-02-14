@@ -22,6 +22,13 @@
 
 Embed json.min.js in your page.
 
+## Limitations
+
+Getting JSON this small means a lot of functionality was discarded. This library is meant for basic functionality on mobile devices.
+
+JSON.stringify: Encoding special characters,
+
+JSON.parse: Safety - do not parse untrusted JSON that could contain malicous code
 
 ## LICENSE
 
