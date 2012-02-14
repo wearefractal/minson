@@ -1,4 +1,4 @@
-JSON or=
+JSON or= {
   stringify: (value) ->
     switch typeof value
       when "string"
@@ -10,3 +10,4 @@ JSON or=
         return value
 
   parse: (obj) -> eval "(#{obj})"
+}

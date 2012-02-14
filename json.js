@@ -29,10 +29,7 @@ JSON || (JSON = {
       default:
         return value;
     }
-  }
-});
-
-({
+  },
   parse: function(obj) {
     return eval("(" + obj + ")");
   }
