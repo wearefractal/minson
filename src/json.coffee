@@ -8,5 +8,5 @@ JSON or= {
       else
         return value
 
-  parse: (obj) -> eval "(#{obj})"
+  parse: (obj) -> return eval "(#{obj})"
 }
