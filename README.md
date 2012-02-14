@@ -2,7 +2,7 @@
 
 <table>
 <tr>
-<td>Package</td><td>minson/td>
+<td>Package</td><td>minson</td>
 </tr>
 <tr>
 <td>Description</td>
