@@ -1,6 +1,6 @@
-(function() {
 
-  JSON.stringify = JSON.stringify || function(value) {
+JSON || (JSON = {
+  stringify: function(value) {
     var key, val;
     switch (typeof value) {
       case "string":
@@ -29,6 +29,11 @@
       default:
         return value;
     }
-  };
+  }
+});
 
-}).call(this);
+({
+  parse: function(obj) {
+    return eval("(" + obj + ")");
+  }
+});
