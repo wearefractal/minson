@@ -1,0 +1,4 @@
+coffee -j ./json.js -c src/json.coffee
+uglifyjs -nc --unsafe -o json.min.js json.js
+echo "File size (minified): " && cat json.js | wc -c
+echo "File size (gzipped): " && cat json.min.js | gzip -9f  | wc -c
