@@ -10,11 +10,11 @@
 </tr>
 <tr>
 <td>Size (minified)</td>
-<td>938 bytes</td>
+<td>973 bytes</td>
 </tr>
 <tr>
 <td>Size (gzipped)</td>
-<td>261 bytes</td>
+<td>256 bytes</td>
 </tr>
 </table>
 

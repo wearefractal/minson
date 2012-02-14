@@ -16,16 +16,17 @@ JSON || (JSON = {
             }
             return _results;
           })()).join(',')) + "]";
+        } else {
+          return "{" + (((function() {
+            var _results;
+            _results = [];
+            for (key in value) {
+              val = value[key];
+              _results.push("\"" + key + "\":" + (JSON.stringify(val)));
+            }
+            return _results;
+          })()).join(',')) + "}";
         }
-        return "{" + (((function() {
-          var _results;
-          _results = [];
-          for (key in value) {
-            val = value[key];
-            _results.push("\"" + key + "\":" + (JSON.stringify(val)));
-          }
-          return _results;
-        })()).join(',')) + "}";
       default:
         return value;
     }
