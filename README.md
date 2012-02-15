@@ -10,7 +10,7 @@
 </tr>
 <tr>
 <td>Size (minified)</td>
-<td>973 bytes</td>
+<td>885 bytes</td>
 </tr>
 <tr>
 <td>Size (gzipped)</td>
@@ -26,7 +26,7 @@ Embed json.min.js in your page.
 
 Getting JSON this small means a lot of functionality was discarded. This library is meant for basic functionality on mobile devices.
 
-JSON.stringify: Encoding special characters,
+JSON.stringify: Encoding special characters
 
 JSON.parse: Safety - do not parse untrusted JSON that could contain malicous code
 
