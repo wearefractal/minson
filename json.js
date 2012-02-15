@@ -18,7 +18,7 @@ JSON || (JSON = {
         _results.push("\"" + key + "\":" + (JSON.stringify(val)));
       }
       return _results;
-    })()).join(',')) + "}") : (typeof value === 'string' ? value : "\"" + value + "\""));
+    })()).join(',')) + "}") : (typeof value === 'string' ? "\"" + value + "\"" : value));
   },
   parse: function(obj) {
     return eval("(" + obj + ")");
